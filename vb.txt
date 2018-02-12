@@ -1,0 +1,45 @@
+      oracle code:
+
+create table hostal(studentname varchar(20),sid number(10),age number(10),studyofcourse varchar(20),dob date,year number(10),intime number(10),outtime nuber(10),fname varchar(20),mname varchar(20),phone number(10));
+insert into hostal values('priya',12345,20,'BE',23-04-1997,2018,10.00,12.00,'murugan','sasi',98765543210);
+select * from hostal;
+
+      visual basic code:
+
+Private Sub Command1_Click()
+form1.show
+End Sub
+
+Private Sub Command1_Click()
+Adodc1.recordset.add
+End Sub
+
+Private Sub Command1_Click()
+Adodc1.recordset.save
+End Sub
+
+Private Sub Command1_Click()
+Adodc1.recordset.delete
+End Sub
+
+Private Sub Command1_Click()
+Adodc1.recordset.update
+End Sub
+
+Private Sub Command1_Click()
+Adodc1.recordset.quit
+End Sub
+
+Private Sub Command1_Click()
+form2.show
+End Sub
+
+Private Sub Command1_Click()
+Adodc1.recordset.movefirst
+End Sub
+
+
+Private Sub Command1_Click()
+Adodc1.recordset.last
+End Sub
+
